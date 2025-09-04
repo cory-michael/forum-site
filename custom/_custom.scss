@@ -1,0 +1,60 @@
+// _custom.scss
+
+
+// scss-docs-start color-variables
+$blue-x:    #1957b3 !default;
+$indigo-x:  #6527c8 !default;
+$purple-x:  #914bb7 !default;
+$pink-x:    #d60b62 !default;
+$red-x:     #dc3545 !default;
+$orange-x:  #fd7e14 !default;
+$yellow-x:  #c1d60b !default;
+$green-x:   #33d2ad !default;
+$teal-x:    #20c997 !default;
+$cyan-x:    #4dc8e1 !default;
+$white-x:   #fbfbfb !default;
+$black-x:   #1b1819 !default;
+// scss-docs-end color-variables
+
+// scss-docs-start colors-map
+$colors: (
+  "blue":       $blue-x,
+  "indigo":     $indigo-x,
+  "purple":     $purple-x,
+  "pink":       $pink-x,
+  "red":        $red-x,
+  "orange":     $orange-x,
+  "yellow":     $yellow-x,
+  "green":      $green-x,
+  "teal":       $teal-x,
+  "cyan":       $cyan-x,
+  "black":      $black-x,
+  "white":      $white-x,
+) !default;
+// scss-docs-end colors-map
+
+// scss-docs-start theme-color-variables
+$primary:       $pink-x !default;
+$secondary:     $yellow-x !default;
+$success:       $green-x !default;
+$info:          $cyan-x !default;
+$warning:       $indigo-x !default;
+$danger:        $red-x !default;
+$light:         $gray-100 !default;
+$dark:          $gray-900 !default;
+$pink:          $pink-x !default;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "pink":       $pink
+) !default;
+// scss-docs-end theme-colors-map

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cory-michael/forum-site/issues"
   },
-  "homepage": "https://github.com/cory-michael/forum-site#readme"
+  "homepage": "https://github.com/cory-michael/forum-site#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
 }
